@@ -1,4 +1,11 @@
 /* IMPOSTAZIONI GENERALI */
+body {
+    width: fit-content;
+    margin: auto;
+    background-image: url(../img/sfondo.png);
+    font-family: Poppins;
+  }
+
 
 /* HEADER */
 .box {
@@ -89,3 +96,19 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+.box_footer {
+    width: 380px;
+    height: auto;
+    background: rgb(0,86,101);
+    background: linear-gradient(180deg, rgba(0,86,101,1) 0%, rgba(44,51,56,1) 100%);
+    text
+    padding: 30px;
+    margin: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-shadow: 5px 5px 10px 0px #000000;
+    -moz-box-shadow: 5px 5px 10px 0px #000000;
+    -o-box-shadow: 5px 5px 10px 0px #000000;
+    box-shadow: 5px 5px 10px 0px #000000;
+  }
